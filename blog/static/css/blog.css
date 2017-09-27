@@ -20,6 +20,8 @@ h1, h2, h3, h4 {
 
 .date {
     color: #828282;
+    float: right;
+    margin-top: 8pt;
 }
 
 .save {
@@ -37,8 +39,18 @@ h1, h2, h3, h4 {
     margin-right: 20px;
 }
 
+p.top-menu, p.top-menu:hover, p.top-menu:visited {
+    font-size: 22pt;
+    margin-top: -3pt;
+}
+
 .post {
     margin-bottom: 70px;
+}
+
+.post .btns {
+    float: right;
+    margin: 4pt -190pt 0 0;
 }
 
 .post h1 a, .post h1 a:visited {
@@ -46,5 +58,96 @@ h1, h2, h3, h4 {
 }
 
 .comment {
-    margin: 20px 0px 20px 20px;
+    margin: 20px 0px 20px 5px;
+}
+
+.comment strong {
+    font-size: 18px;
+}
+
+.comment p {
+    padding-left: 10px;
+}
+
+/* LOGIN FORM */
+
+body.login {
+    background: #f8f8f8;
+}
+
+.login #header {
+    height: auto;
+    padding: 5px 16px;
+}
+
+.login #header h1 {
+    font-size: 18px;
+}
+
+.login #header h1 a {
+    color: #fff;
+}
+
+.login #content {
+    padding: 20px 20px 0;
+}
+
+.login #container {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 28em;
+    min-width: 300px;
+    margin: 100px auto;
+}
+
+.login #content-main {
+    width: 100%;
+}
+
+.login .form-row {
+    padding: 4px 0;
+    float: left;
+    width: 100%;
+    border-bottom: none;
+}
+
+.login .form-row label {
+    padding-right: 0.5em;
+    line-height: 2em;
+    font-size: 1em;
+    clear: both;
+    color: #333;
+}
+
+.login .form-row #id_username, .login .form-row #id_password {
+    clear: both;
+    padding: 8px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.login span.help {
+    font-size: 10px;
+    display: block;
+}
+
+.login .submit-row {
+    clear: both;
+    padding: 1em 0 0 9.4em;
+    margin: 0;
+    border: none;
+    background: none;
+    text-align: left;
+}
+
+.login .password-reset-link {
+    text-align: center;
+}
+
+label {
+    margin: 5px;
 }
